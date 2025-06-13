@@ -1,0 +1,17 @@
+{
+  "supabase": {
+    "url": "https://your-project.supabase.co",
+    "key": "your-public-anon-key",
+    "bucket": "lira-storage"
+  },
+  "github": {
+    "repo": "ilyas/lira",
+    "branch": "main",
+    "autoDeploy": true
+  },
+  "preview": {
+    "enabled": true,
+    "defaultHeight": 400
+  }
+}
+
