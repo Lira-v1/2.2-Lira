@@ -4,6 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
     authenticate();
     logMessage("🔁 Автоматический вход выполнен. Лира восстановлена.");
   }
+
+  document.getElementById('tokenButton').addEventListener('click', verifyToken);
 });
 
 function verifyToken() {
@@ -70,8 +72,5 @@ function addTask() {
     document.getElementById("task-list").appendChild(li);
     taskInput.value = '';
     logMessage(📝 Новая задача добавлена: ${task});
-  }
+  }
 }
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('tokenButton').addEventListener('click', verifyToken);
-});
