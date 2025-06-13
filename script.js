@@ -72,3 +72,6 @@ function addTask() {
     logMessage(📝 Новая задача добавлена: ${task});
   }
 }
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('tokenButton').addEventListener('click', verifyToken);
+});
